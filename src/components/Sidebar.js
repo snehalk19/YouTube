@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   return (
     <div className="p-5 shadow-lg w-48">
-      <ul className="mt-5">
+      <ul className="mt-5 p-2">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -19,14 +19,14 @@ const Sidebar = () => {
         <li>Video</li>
       </ul>
       <h1 className="font-bold">Subscriptions</h1>
-      <ul>
+      <ul className="p-2">
         <li>Music</li>
         <li>Sports</li>
         <li>Gaming</li>
         <li>Movies</li>
       </ul>
       <h1 className="font-bold">Watch Later</h1>
-      <ul>
+      <ul className="p-2">
         <li>Music</li>
         <li>Sports</li>
         <li>Gaming</li>

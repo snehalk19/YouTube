@@ -13,13 +13,14 @@ const list = [
   "Array",
   "Amazon",
   "AI",
-  "Resume",
-  "Watched",
+  "ABC",
+  "PQR",
+  "XYZ",
 ];
 
 const ButtonList = () => {
   return (
-    <div className="flex  ">
+    <div className="flex w-full ml-10 overflow-x-scroll  ">
       {list.map((element) => (
         <Button name={element} key={element} />
       ))}
