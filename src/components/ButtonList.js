@@ -13,9 +13,6 @@ const list = [
   "Array",
   "Amazon",
   "AI",
-  "ABC",
-  "PQR",
-  "XYZ",
 ];
 
 const ButtonList = () => {

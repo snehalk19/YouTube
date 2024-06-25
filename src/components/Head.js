@@ -55,7 +55,7 @@ const Head = () => {
   };
 
   return (
-    <div className="grid grid-flow-col p-5 m-2 shadow-lg w-full">
+    <div className="grid grid-flow-col p-5 mb-3 shadow-sm w-full">
       <div className="flex col-span-1 ">
         <img
           onClick={() => toggleMenuHandler()}
@@ -75,7 +75,6 @@ const Head = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setShowSuggestions(true)}
-            onBlur={() => setSuggestions([])}
           />
           <button className="border border-gray-400 p-2 rounded-r-full py-2 px-5 bg-gray-100 ">
             🔍
